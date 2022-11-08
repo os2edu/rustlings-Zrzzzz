@@ -10,10 +10,15 @@
 // Write a function that calculates the price of an order of apples given
 // the quantity bought. No hints this time!
 
-// I AM NOT DONE
 
 // Put your function here!
-// fn calculate_price_of_apples {
+fn calculate_price_of_apples(cnt: usize) -> usize {
+    if cnt <= 40 {
+        cnt * 2
+    } else {
+        cnt
+    }
+}
 
 // Don't modify this function!
 #[test]
